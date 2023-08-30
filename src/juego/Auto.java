@@ -14,7 +14,19 @@ package juego;
 		private double velocidad;
 		private double direccion;
 		
-		
+		//devuelve el X donde comienza el objeto Auto
+		public double getX() {
+			return x;
+		}
+		//Devuelve el Y donde comienza el objeto Auto
+		public double getY() {
+			return y;
+		}
+		//devuelve el Heigth donde termina el objeto Auto
+		public double getAlto() {
+			return alto;
+		}
+		//devuelve el 
 		//constructor del auto
 		public Auto(double x, double y, double alto, double ancho, Color color, double velocidad, double direccion) {
 			this.x = x;
